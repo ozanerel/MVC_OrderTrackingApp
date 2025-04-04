@@ -1,0 +1,20 @@
+﻿@model MVC_OrderTrackingApp.Models.Product
+@* @model MVC_OrderTrackingApp.Models.Category *@
+
+<div>
+	<table border="1" cellpadding="8" cellspacing="0">
+		<tr>
+			<th>Ürün Adı</th>
+			<th>Ürün ID</th>
+			<th>Ürün Fiyatı</th>
+			<th>Kategori ID</th>
+		</tr>
+		<tr>
+			<td>@Model.ProductName</td>
+			<td>@Model.ProductId</td>
+			<td>@Model.UnitPrice</td>
+			<td>@Model.CategoryId</td>
+		</tr>
+	</table>
+</div>
+
